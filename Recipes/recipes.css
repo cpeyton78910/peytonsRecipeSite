@@ -60,7 +60,7 @@ h3 {
   line-height: 2rem;
 }
 
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 55rem) {
   #recipeOverview h1 { 
     margin-left: 10rem;
     text-align: left;
