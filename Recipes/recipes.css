@@ -93,4 +93,9 @@ h3 {
     margin-left: 2rem;
   }
 
+  .mainContent ol {
+    margin-left: 5rem;
+    line-height: 2.5rem;
+  }
+
 }
