@@ -111,4 +111,13 @@ footer {
   #homepageImage {
     max-height: 30rem;
   }
+
+  .content p, .mainContent h1, .content h2, .content h3{
+    padding-left: 2rem;
+  }
+
+  .mainContent ul, ol {
+    margin-left: 5rem;
+    line-height: 2rem;
+  }
 }
