@@ -1,0 +1,96 @@
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.mainContent {
+  padding: 0;
+}
+
+#recipeOverview h1 { 
+  color: navy;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#recipeOverview {
+  margin: 0;
+  background: #c4d6ee;
+  padding-top: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: black;
+}
+
+div.recipePic {
+  text-align: center;
+}
+img.recipePic {
+  max-width: 60%;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+#authorText {
+  font-weight: bold;
+}
+
+.recipeOverviewText {
+  text-align: center;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+#recipe {
+  padding: 1rem;
+}
+
+h2 {
+  color: navy;
+  margin-top: 1rem;
+}
+
+h3 {
+  color: navy;
+  margin-top: 0.5rem;
+}
+
+.mainContent ol {
+  margin-left: 2rem;
+  line-height: 2rem;
+}
+
+@media screen and (min-width: 50rem) {
+  #recipeOverview h1 { 
+    margin-left: 10rem;
+    text-align: left;
+  }
+
+  #recipeOverview > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+  
+  div.recipePic {
+    max-width: 50%;
+    display: block;
+    flex: 1;
+    text-align: center;
+  }
+  img.recipePic {
+    max-width: 70%;
+    margin: 1rem;
+  
+  }
+  
+  .recipeOverviewText {
+    flex: 1;
+    text-align: left;
+  }
+
+  #authorText {
+    margin-left: 2rem;
+  }
+
+}
